@@ -6,6 +6,7 @@ const ButtonGroup = () => {
   }
   return (
     <div>
+      {/* printcolor is a new function and call and execute some argument */}
       <button onClick={() => printColor('Red')}>Red</button>
       <button onClick={() => printColor('Yellow')}>Yellow</button>
       <button onClick={() => printColor('Green')}>Green</button>
